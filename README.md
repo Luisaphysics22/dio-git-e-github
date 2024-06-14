@@ -11,10 +11,11 @@ Repositório para armazenar resumos sobre Git e GitHub do curso de versionamento
 
 | Aulas | Resumos |
 |-------|---------|
-| Gravando Alterações de Repositório Local |[Resumos](https://web.dio.me/track/70304c16-a7d8-4066-97de-16345e1653a6) |
+| Aula 01|[Resumo](https://web.dio.me/course/versionamento-de-codigo-com-git-e-github/learning/f9b294d2-f8ca-4364-9031-1e897721b3e2?back=/track/coding-future-vivo-python-ai-backend-developer&tab=undefined&moduleId=undefined)
+| Aula 02 |[Resumo](https://web.dio.me/track/70304c16-a7d8-4066-97de-16345e1653a6) |
 
 ```
 git init
 ```
 ## 🔍 Referências
-[Digital Innovation One]().
+[Digital Innovation One](https://web.dio.me/home).

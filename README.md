@@ -21,5 +21,14 @@ Repositório para armazenar resumos sobre Git e GitHub do curso de versionamento
 ```
 git init
 ```
+```
+git add .
+```
+```
+git pull
+```
+```
+git push
+```
 ## 🔍 Referências
 [Digital Innovation One](https://web.dio.me/home).

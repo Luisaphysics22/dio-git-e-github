@@ -18,17 +18,92 @@ Repositório para armazenar resumos sobre Git e GitHub do curso de versionamento
 | Aula 05 |[Resumo](https://web.dio.me/course/versionamento-de-codigo-com-git-e-github/learning/dd17c56e-2327-493c-942a-358a49a26549)
 | Aula 06 |[Resumo](https://web.dio.me/course/versionamento-de-codigo-com-git-e-github/learning/2c7fd2b1-e7c4-4947-9b07-ffcbfb4bd689)
 
+## Comandos Git 📔📖
+
+Inicialize um repositório Git no diretório escolhido:
 ```
 git init
 ```
+Conecte o repositório local com o repositório remoto:
+
+```
+git add origin URL
+```
+Adicione o conteúdo que deseja inserir no commit:
 ```
 git add .
 ```
+Clone um repositório Git existente
+para um novo diretório (pasta) local:
+
+```
+git clone
+```
+
+Grava as alterações no repositório e adiciona uma mensagem descritiva:
+
+```
+git commit -m "message"
+```
+
+ “Puxe” as alterações do repositório remoto para o local (busca e mescla):
+
 ```
 git pull
 ```
+“Empurre” as alterações do repositório local para o remoto:
+
 ```
 git push
 ```
+Altere a mensagem do último commit:
+```
+git commit --amend
+```
+Alterando a mensagem sem abrir o editor:
+```
+git commit --amend –m"new message"
+```
+Como desfazer um commit:
+```
+git reset
+```
+```
+git reset --soft
+```
+```
+git reset --mixed
+```
+```
+git reset --hard
+```
+Trabalhando com branches:
+```
+git branch
+```
+Trocar de Branch e criar uma nova:
+```
+git checkout -b nova-branch
+```
+Deletar uma Branch:
+```
+git branch –d nome-da-branch
+```
+Ver o último commit de cada Branch:
+```
+git branch -v
+```
+Shows the commit logs:
+```
+git log
+```
+Show the working tree status:
+```
+git status
+```
+
+
 ## 🔍 Referências
 [Digital Innovation One](https://web.dio.me/home).
+
+[Reference Manual Git](https://git-scm.com/doc).
